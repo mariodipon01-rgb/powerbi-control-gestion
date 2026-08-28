@@ -49,10 +49,11 @@ mejoró 1,3 puntos de 2024 a 2025.
 Ingresos, gastos y margen registrados en el libro mayor, con desglose por
 departamento y centro de coste.
 
-El informe anterior sobre estos mismos datos solo usaba el Debe y titulaba la
-página «Análisis de Gastos», dejando fuera cerca de dos millones de euros de
-ingresos que estaban en la misma tabla. Aquí se usan las cinco cuentas: 4000 y
-4010 al Haber como ingresos, 5000, 5010 y 6000 al Debe como gastos.
+El libro mayor contiene tanto cuentas de ingreso como de gasto, y la página usa
+las cinco: 4000 y 4010 al Haber como ingresos, 5000, 5010 y 6000 al Debe como
+gastos. Quedarse solo con el Debe habría dejado fuera cerca de dos millones de
+euros que están en la misma tabla y habría convertido la página en un simple
+recuento de gasto, sin margen ni contraste con la facturación.
 
 La matriz cruza departamento y centro de coste y marca en rojo las dos
 combinaciones con margen negativo, que son las que pedirían revisión.
@@ -147,13 +148,14 @@ origen; el libro mayor no es la fuente contable de ese presupuesto. Se ha optado
 por presentarlas por separado y delimitar el ámbito de cada página desde la
 cabecera, en lugar de forzar un cuadre que no existe.
 
-**No hay DSO ni DPO.** El informe anterior mostraba DSO 45, DPO 30 y un ciclo de
-conversión de efectivo de 15 días. No son cálculos: todas las facturas de cliente
-son a 45 días y todas las de proveedor a 30, y las cerradas se cobraron o pagaron
-exactamente en plazo — mínimo, media y máximo coinciden. Promediar eso devuelve
-siempre las condiciones contractuales. Además, un ciclo de conversión sin la
-componente de existencias no es un ciclo completo, y estas tablas no incluyen
-inventario.
+**No hay DSO ni DPO.** Son los indicadores habituales en un análisis de
+circulante, pero sobre estos datos no serían métricas sino constantes: todas las
+facturas de cliente son a 45 días y todas las de proveedor a 30, y las cerradas
+se cobraron o pagaron exactamente en plazo — mínimo, media y máximo coinciden.
+Promediar eso devuelve siempre las condiciones contractuales, no un
+comportamiento observado. Por el mismo motivo tampoco se calcula el ciclo de
+conversión de efectivo, que además exigiría los días de existencias y estas
+tablas no incluyen inventario.
 
 **Las facturas parciales se cuentan enteras.** 565 facturas figuran en estado
 «Parcial», pero el origen no registra el importe ya liquidado. Se contabilizan por
