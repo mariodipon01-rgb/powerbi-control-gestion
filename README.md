@@ -8,9 +8,9 @@ a euros.
 El objetivo no era hacer gráficos bonitos, sino responder cuatro preguntas de
 gestión y dejar documentado de dónde sale cada cifra y hasta dónde llega.
 
-**[▶ Ver el recorrido en vídeo](PENDIEN
+**[▶ Ver el recorrido en vídeo](https://youtu.be/zylG-gaeIpU)** · duración 1 min 49 s
 
-TE-ENLACE)** · duración 1 min 30 s
+
 
 ---
 
